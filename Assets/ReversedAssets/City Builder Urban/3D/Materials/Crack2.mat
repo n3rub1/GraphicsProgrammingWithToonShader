@@ -30,7 +30,7 @@ Material:
   - _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
@@ -258,7 +258,7 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 2
     - _GlossyReflections: 1
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
@@ -290,8 +290,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _RimAmount: 0
-    - _RimThreshold: 0
+    - _RimAmount: 0.072
+    - _RimThreshold: 0.313
     - _SSRefractionProjectionModel: 0
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
@@ -344,10 +344,10 @@ Material:
     m_Colors:
     - Color_A5F7342F: {r: 0.4245283, g: 0.42023724, b: 0.41451585, a: 0}
     - Color_CDD57760: {r: 0.29245278, g: 0.27467263, b: 0.25244746, a: 0}
-    - _AmbientColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    - _AmbientColor: {r: 0.17788847, g: 0.17788847, b: 0.17788847, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+    - _Color: {r: 0.45882356, g: 0.45882356, b: 0.45882356, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -356,7 +356,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Tint: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}

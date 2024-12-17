@@ -30,8 +30,8 @@ Material:
   - _GLOSSYREFLECTIONS_OFF
   - _NORMALMAP
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
@@ -240,7 +240,7 @@ Material:
     - _EnvironmentReflections: 1
     - _FlipbookMode: 0
     - _GlossMapScale: 0
-    - _Glossiness: 0.5
+    - _Glossiness: 2
     - _GlossyReflections: 0
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
@@ -273,8 +273,8 @@ Material:
     - _ReceiveShadows: 1
     - _ReceivesSSR: 1
     - _RefractionModel: 1
-    - _RimAmount: 0
-    - _RimThreshold: 0
+    - _RimAmount: 0.072
+    - _RimThreshold: 0.313
     - _SSRefractionProjectionModel: 0
     - _Smoothness: 1
     - _SmoothnessRemapMax: 1
@@ -326,7 +326,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _AmbientColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    - _AmbientColor: {r: 0.050980393, g: 0.07058824, b: 0.24313726, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0.5529412}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
@@ -341,7 +341,7 @@ Material:
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.9811321, g: 0.013883919, b: 0.8684164, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
